@@ -22,7 +22,6 @@ type ScheduleTypeWeekly struct {
 }
 
 func main() {
-	startTimes := make([]LocalTime, 0)
 	dayOfWeek := "Wednesday"
 
 	scheduleTypeWeekly := ScheduleTypeWeekly{
