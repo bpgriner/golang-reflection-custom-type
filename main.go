@@ -7,10 +7,6 @@ import (
 
 type LocalTime string
 
-func (lt LocalTime) String() string {
-	return string(lt)
-}
-
 type ScheduleTypeWeekly struct {
 	Sunday    []LocalTime
 	Monday    []LocalTime
